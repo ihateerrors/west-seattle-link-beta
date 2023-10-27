@@ -1,4 +1,4 @@
-
+/* 
 @font-face {
   font-family: 'Nunito Sans', sans-serif;
   src: url('https://fonts.cdnfonts.com/css/nunito-sans.woff2') format('woff2'), url('https://fonts.cdnfonts.com/css/nunito-sans.woff') format('woff');
@@ -9,7 +9,7 @@
   font-family: 'Hind', sans-serif;
   src: url('https://fonts.cdnfonts.com/css/hind.woff2') format('woff2'), url('https://fonts.cdnfonts.com/css/hind.woff') format('woff');
   font-display: swap;
-}
+} */
 
 .hero {
   font-family: "Nunito Sans", sans-serif;
@@ -789,4 +789,15 @@ a.thumbnail>img {
 
 .main-ul li {
   font-size: 18px;
+}
+
+.btn.pbtn {
+  color: #ffffff;
+  background: #d6148e;
+  border-radius: 3px;
+}
+.btn.pbtn:hover {
+  color: #d6148e;
+  background: #fff;
+  border: 2px solid #d6148e;
 }
