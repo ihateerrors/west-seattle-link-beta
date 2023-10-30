@@ -801,3 +801,13 @@ a.thumbnail>img {
   background: #fff;
   border: 2px solid #d6148e;
 }
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 0;
+  padding-top: 0.6em;
+  margin-left: 0px;
+}
