@@ -331,7 +331,7 @@ h5 {
 }
 
 li {
-  font-size: 1.15em;
+  font-size: 18px;
   font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -800,4 +800,22 @@ a.thumbnail>img {
   color: #d6148e;
   background: #fff;
   border: 2px solid #d6148e;
+}
+.timelinepage .timeline-wrapper .tl:after {
+  box-shadow: 0 0 0 4px #2a7997;
+  left: -23.85px;
+  background: #2a7997;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 7px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.navbar-nav .dropdown-menu {
+  background-color: #d9d9d9;
+  border: none;
+  padding-top: 1.15em;
 }
