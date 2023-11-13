@@ -232,6 +232,7 @@ p {
 .pbutton {
   color: #ffffff !important;
   background: #d6078e !important;
+  border: 2px solid #d6078e;
 }
 
 .blbutton {
@@ -795,6 +796,7 @@ a.thumbnail>img {
   color: #ffffff;
   background: #d6148e;
   border-radius: 3px;
+  border: 2px solid #d6148e;
 }
 .btn.pbtn:hover {
   color: #d6148e;
