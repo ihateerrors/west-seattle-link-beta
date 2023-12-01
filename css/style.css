@@ -825,3 +825,7 @@ a.thumbnail>img {
 .purplebg {
   background:#002e6d;
 }
+
+.pink-underline {
+  border-bottom: 2px solid #d6078e;
+}
