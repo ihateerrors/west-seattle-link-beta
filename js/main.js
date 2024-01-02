@@ -8,12 +8,12 @@ closeBtn.addEventListener("click", function() {
   urgentBanner.style.display = "none";
 });
 
-// function googleTranslateElementInit() {
-//   new google.translate.TranslateElement(
-//     { pageLanguage: "en" },
-//     "google_translate_element"
-//   );
-// }
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    { pageLanguage: "en" },
+    "google_translate_element"
+  );
+}
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -117,3 +117,4 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
