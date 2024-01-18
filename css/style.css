@@ -616,6 +616,11 @@ article.widget-translate {
 article.widget-translate:nth-child(2){
   float: right;
 }
+@media (max-width: 768px) {
+  article.widget-translate:nth-child(2) {
+    float: none; 
+  }
+}
 article.widget-translate {
   display: inline-block;
 }
