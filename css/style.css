@@ -834,3 +834,6 @@ a.thumbnail>img {
 .pink-underline {
   border-bottom: 2px solid #d6078e;
 }
+.accordion.thr {
+  border-bottom: none;
+}
